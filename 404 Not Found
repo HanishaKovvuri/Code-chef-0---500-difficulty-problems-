@@ -1,0 +1,20 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+    public static void main (String[] args) throws java.lang.Exception
+    {
+        Scanner sc = new Scanner(System.in);
+        String input = sc.next();
+        
+        if (!input.equals("404")) {
+            System.out.println("Found");
+        } else {
+            System.out.println("Not Found");
+        }
+
+
+    }
+}
